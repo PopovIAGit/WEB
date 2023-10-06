@@ -1,94 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Ivan, cv, resume">
-  <meta name="description" content="Это сайт - резюме Ивана Попова">
-  <title>Ivan Resume</title>
-  <link rel="stylesheet" href="selector.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Ivan, cv, resume"> <!-- ключевые слова для поисковых ботов-->
+    <meta name="description" content="Это сайт - резюме Ивана Попова"> <!-- описание -->
+    <title>Ivan Resume</title>
+    <link rel="stylesheet" href="selector.css">
 </head>
+
 <body>
+    <div class="container">
 
+        <div class="info">
 
-    <header>
+            <img src="foto.jpg" alt="Иван Попов" width="200" class="img-responsive">
 
-        <img src="foto.jpg" alt="Иван Попов" width="200">
+            <div class="info-text">
 
-        <h1>Иван Попов</h1>
+                <h1>Иван Попов</h1>
 
-    </header>
+                <p>Я разработчик встраиваемого программного обеспечения и оно мне надоело, хочу в WEB</p>
 
-  
-<div>
+                <p>Я люблю путешествовать, заниматься спортом и программировать</p>
 
-    <p>Я разработчик встраиваемого программного обеспечения и оно мне надоело, хочу в WEB</p>
+                <h4>Список социальных сетей:</h4>
 
-    <p>Я люблю <em>путешествовать, заниматься спортом и программировать</em></p>
-  
-    <h4>Список социальных сетей:</h4>
-  
-    <a href="https://t.me/IvanPopovTomsk" target="_blank">Telegram</a>
-    |
-    <a href="https://vk.com/id10436893" target="_blank">VK</a>
-  
-    <h2>Мои хобби</h2>
-  
-    
-    <ol>
-      <li>Путешествия</li>
-      <li>Собаки</li>
-      <li>Тренажорный зал</li>
-    </ol>
-  
-    <h2>Опыт работы</h2>
-  
-    <table>
-      <thead>
-        <tr>
-          <th>Название</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>ЭЛЕСИ</td>
-          <td>embedded developer</td>
-          <td>2008-2011</td>
-        </tr>
-        <tr>
-          <td>ТОМЗЭЛ</td>
-          <td>embedded software engineer</td>
-          <td>2011-2023</td>
-        </tr>
-      </tbody>
-    </table>
+                <a href="https://t.me/IvanPopovTomsk" target="_blank">Telegram</a>
+                |
+                <a href="https://vk.com/id10436893" target="_blank">VK</a>
+                |
+                <a href="https://github.com/PopovIAGit">github</a>
+            </div>
+        </div>
+           <div class="card bg_yellow">   
+            <h2>Мои хобби</h2>
+            <ol>
+                <li>Программирование</li>
+                <li>Путешествия</li>
+                <li>Собаки</li>
+                <li>Тренажерный зал</li>
+            </ol>
+        </div> 
+        <div class="card bg_red">
+            <h2>Опыт работы</h2>
 
-</div>
- 
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ЭЛЕСИ</td>
+                        <td>embedded developer</td>
+                        <td>2008-2011</td>
+                    </tr>
+                    <tr>
+                        <td>ТОМЗЭЛ</td>
+                        <td>embedded software engineer</td>
+                        <td>2011-2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-  <h2>Связаться со мной</h2>
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
 
-  <form action="/">
-    <div>
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="Введите имя">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <input type="submit" value="Отправить!" class="btn">
+        </form>
     </div>
 
-    <div>
-      <label for="email">Ваш email:</label>
-      <input type="email" id="email" placeholder="Введите email">
-    </div>
-
-    <div>
-      <label for="message">Ваше сообщение:</label>
-      <br>
-      <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
-    </div>
-
-    <input type="submit" value="Отправить!">
-  </form>
 </body>
+
 </html>

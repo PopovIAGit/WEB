@@ -1,3 +1,177 @@
-header{
+/*to all elem
+*{
+
+}*/
+
+/*по тэгу*/
+body{
+    /*text*/
+    background: white;
+    color:  #0f141e;
+    font-family: 'Robota', sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: normal;
+    
+    /*text-decoration: line-through;*/
+    /*font-style: italic;*/
+   /* letter-spacing: 2px;*/
+   /* word-spacing: 20px;*/
+}
+/*по id*/
+/*#header
+#header{
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5%;
+}*/
+
+/*по классу*/
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+.img-responsive{
+    width: 200px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 5%;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .info-text {
+    margin-left: 40px;
+  }
+
+  .info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+  }
+  
+  .info-text h4 {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 650px) {
+    .info {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .bg_yellow {
+    background: #fff9dc;
+  }
+  
+  .bg_red {
+    background: #ffe5e5;
+  }
+
+.form{
+   
+    color:  #0f141e;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, 
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    outline: none;
+}
+
+
+/*colors*/
+.color1{
     color: red;
+
+}
+.color2{
+    color: grey;
+}
+
+a {
+ color: 333;
+ text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+}
+/*
+a:visited{
+    color: red;
+}*/
+
+a:active{
+    color: #480082;
+}
+
+p{
+    hyphens: auto;
+}
+
+.btn{
+    background:#111;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover{
+   opacity: 0.8;
 }
